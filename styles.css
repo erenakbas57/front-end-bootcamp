@@ -1,0 +1,240 @@
+/* 
+header : etiket
+.welcome : class
+#logo : id
+
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: rgb(170, 121, 86);
+    background-color: #f0e6e6;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(129, 17, 17);
+    background-color: #be9d9d;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    display: block;
+    text-align: center;
+    min-width: 100px; /* Hepsinin aynı genişlikte olması için */
+}
+
+.menu a:hover {
+    background-color: #a86b6b;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.menu a:active {
+    background-color: #934a4a;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f0e6e6;
+}
+
+section {
+    padding: 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #be9d9d;
+    color: rgb(129, 17, 17);
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #a86b6b;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Education Section Styles */
+.education-section {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.education-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.education-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.education-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education-item img.education-logo {
+    width: 100px;
+    height: auto;
+    margin-top: 1em;
+}
+
+.education-item h3 {
+    background-color: #be9d9d;
+    color: #fff;
+    margin: 0;
+    padding: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.education-item p {
+    padding: 1em;
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.education-item .date {
+    font-style: italic;
+    color: #999;
+    padding-bottom: 1em;
+}
+
+/* Projects Section Styles */
+.projects-section {
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.projects-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.project-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-title-div{
+    background-color: #be9d9d;
+    padding: 0.1em 0;
+    font-size: 1.5em;
+
+}
+
+.project-title {
+    color: #fff;
+    margin-left:20px;
+    font-size: 1.5em;
+}
+
+.project-description {
+    padding: 1em;
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.project-date {
+    font-style: italic;
+    color: #999;
+    padding: 0.5em 1em;
+}

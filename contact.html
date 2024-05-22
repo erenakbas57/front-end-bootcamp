@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EREN AKBAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EREN AKBAS</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Contact Me</h2>
+            <p>If you have any questions or just want to get in touch, feel free to contact me using the form below or through the provided contact details.</p>
+            <form action="submit_contact_form.php" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p id="footer">&copy; 2024 EREN AKBAS</p>
+        </footer>
+    </div>
+</body>
+</html>
